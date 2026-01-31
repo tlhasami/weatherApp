@@ -1,0 +1,9 @@
+# Ignore native platform code for language stats
+windows/** linguist-ignore
+linux/** linguist-ignore
+macos/** linguist-ignore
+ios/** linguist-ignore
+android/** linguist-ignore
+
+# Ensure Dart is detected
+*.dart linguist-language=Dart
